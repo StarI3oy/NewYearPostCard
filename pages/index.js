@@ -59,7 +59,7 @@ export default function Home() {
     loop: true,
   }}
 /></div>
-<Countdown date={"2023-01-01T00:00:00"}
+<Countdown date={"2024-01-01T00:00:00"}
                 renderer={renderer} />
 <Image src="/tree.gif" alt="tree" className={'fixed  bottom-[15%] z-[1] '} width={130} height={130}/>
 </div>

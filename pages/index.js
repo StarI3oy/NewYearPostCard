@@ -19,23 +19,23 @@ export default function Home() {
     } else {
       return (
         <div className=" place-self-center fixed top-[14%]">
-          <h2 className="xl:text-sm text-xs">Till New Year:</h2>
+          <h2 className="xl:text-sm text-xs">До нового года:</h2>
           <span className=" flex  justify-center gap-1 font-bold text-xs flex-row">
             <div className="flex-col p-2 bg-[#222327] rounded-2xl">
               <div>{days}</div>
-              <div>days</div>
+              <div>дн.</div>
             </div>
             <div className="flex-col p-2 bg-[#222327] rounded-2xl">
               <div>{hours}</div>
-              <div>hours</div>
+              <div>час.</div>
             </div>
             <div className="flex-col p-2 bg-[#222327] rounded-2xl">
               <div>{minutes}</div>
-              <div>minutes</div>
+              <div>мин.</div>
             </div>
             <div className="flex-col p-2 bg-[#222327] rounded-2xl">
               <div>{seconds}</div>
-              <div>seconds</div>
+              <div>сек.</div>
             </div>
           </span>
         </div>

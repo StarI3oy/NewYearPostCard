@@ -53,7 +53,7 @@ export default function Home() {
         <div className="z-[2]">
         <Typewriter
   options={{
-    strings: ['⭐С Новым годом!⭐', '⭐Жаңа Жылыңызбен!⭐' ,"⭐Happy New Year!⭐", "⭐新年おめでとうございます！⭐"],
+    strings: ['⭐С Новым годом!⭐', '⭐Жаңа Жылыңызбен!⭐' ,"⭐Happy New Year!⭐", "⭐新年おめでとうございます！⭐","Made by Alex Zykov"],
     autoStart: true,
     delay: 100,
     loop: true,
